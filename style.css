@@ -7,7 +7,7 @@
 nav{
     padding: 10px 40px;
     border-bottom: 2px solid black;
-    /* background-color: #010103; */
+    background-color: #010103;
 
     display: flex;
     justify-content: space-between;
@@ -17,5 +17,20 @@ nav{
 #nav-name a{
     text-decoration: none;
     font-size: 2rem;
-    /* color: #fff; */
+    color: #fff;
+}
+
+#nav-link{
+    display: flex;
+    gap: 20px;
+}
+
+#nav-link li{
+    list-style-type: none;
+}
+
+#nav-link li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
 }
