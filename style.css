@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px 40px;
+    border-bottom: 2px solid black;
+    background-color: #010103;
+}
+
+#nav-name a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
