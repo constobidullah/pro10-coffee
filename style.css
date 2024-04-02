@@ -7,11 +7,15 @@
 nav{
     padding: 10px 40px;
     border-bottom: 2px solid black;
-    background-color: #010103;
+    /* background-color: #010103; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #nav-name a{
     text-decoration: none;
     font-size: 2rem;
-    color: #fff;
+    /* color: #fff; */
 }
