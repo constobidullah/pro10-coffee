@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     padding: 10px 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #130809;
     background-color: #010103;
 
     display: flex;
@@ -14,23 +14,26 @@ nav{
     align-items: center;
 }
 
-#nav-name a{
+#nav-name a {
     text-decoration: none;
     font-size: 2rem;
     color: #fff;
 }
 
-#nav-link{
+#nav-link {
     display: flex;
     gap: 20px;
 }
 
-#nav-link li{
+#nav-link li {
     list-style-type: none;
 }
 
-#nav-link li a{
+#nav-link li a {
     text-decoration: none;
     font-size: 1.3rem;
     color: #fff;
+
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
 }
