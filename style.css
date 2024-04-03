@@ -54,6 +54,7 @@ nav {
 /* header */
 #header-declare {
     position: relative;
+    margin-bottom: 50px;
 }
 
 #header-declare-image {
