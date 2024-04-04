@@ -53,13 +53,20 @@
 }
 
 #about-item{
+    background-color: #010103;
     text-align: center;
+    padding: 15px;
 }
 
 #about-item i{
+    font-size: 2rem;
     color: #D3AD7F;
+    margin-bottom: 10px;
 }
 
 #about-item p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Lora", sans-serif;
     color: #fff;
 }
