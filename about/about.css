@@ -15,7 +15,7 @@
     padding: 0 80px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 35px;
 }
 
 #about-image img{
@@ -50,12 +50,15 @@
 
 #about-item-container{
     margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
 }
 
 #about-item{
     background-color: #010103;
     text-align: center;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 #about-item i{
@@ -66,7 +69,7 @@
 
 #about-item p{
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Lora", sans-serif;
     color: #fff;
 }
