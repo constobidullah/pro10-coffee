@@ -47,3 +47,19 @@
     background-color: #D3AD7F;
     padding: 7px 18px;
 }
+
+#about-item-container{
+    margin: 50px 0 0 0;
+}
+
+#about-item{
+    text-align: center;
+}
+
+#about-item i{
+    color: #D3AD7F;
+}
+
+#about-item p{
+    color: #fff;
+}
