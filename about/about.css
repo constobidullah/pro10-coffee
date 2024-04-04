@@ -10,3 +10,10 @@
 #about-title h3 span{
     color: #D3AD7F;
 }
+
+#about-parent{
+    padding: 0 80px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
