@@ -28,3 +28,12 @@
     font-family: "Rajdhani", sans-serif;
     margin-bottom: 10px;
 }
+
+#about-text p{
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 100;
+    opacity: .8;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
