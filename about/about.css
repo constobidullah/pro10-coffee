@@ -22,3 +22,9 @@
     width: 100%;
 }
 
+#about-text h4{
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 10px;
+}
