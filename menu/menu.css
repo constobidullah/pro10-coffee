@@ -10,3 +10,9 @@
 #menu-title h3 span{
     color: #D3AD7F;
 }
+
+/* Menu */
+
+#menu-parent{
+    padding: 0 80px 50px;
+}
