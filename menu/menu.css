@@ -32,4 +32,17 @@
     color: #fff;
     font-family: "Rajdhani",sans-serif;
     font-size: 1.3rem;
+    margin: 0 0 10px 0;
+}
+
+.menu-item p{
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.menu-item p del{
+    font-size: .7rem;
 }
