@@ -46,3 +46,14 @@
 .menu-item p del{
     font-size: .7rem;
 }
+
+.menu-item button{
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 7px 25px;
+    background-color: #D3AD7F;
+    color: #fff;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
