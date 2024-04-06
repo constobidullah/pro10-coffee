@@ -92,6 +92,7 @@ nav {
 }
 
 #header-declare-text button{
+    cursor: pointer;
     border: 2px solid transparent;
     border-radius: 3px;
     background-color: #D3AD7F;
@@ -100,4 +101,10 @@ nav {
     font-size: 1.3rem;
     font-weight: 100;
     font-family: 'Rajdhani';
+    transition: .4s;
+}
+
+#header-declare-text button:hover{
+    border: 2px solid #D3AD7F;
+    background-color: transparent;
 }
