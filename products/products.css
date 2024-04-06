@@ -39,3 +39,15 @@
     color: #D3AD7F;
     margin: 0 0 10px 0;
 }
+
+.product-item p{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.product-item p del{
+    font-size: .9rem;
+    margin: 0 0 10px 0 ;
+}
