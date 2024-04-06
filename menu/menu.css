@@ -51,6 +51,7 @@
 }
 
 .menu-item button{
+    cursor: pointer;
     border: 1px solid transparent;
     border-radius: 2px;
     padding: 7px 25px;
@@ -59,4 +60,12 @@
     font-family: "Rajdhani",sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: .5s;
+}
+
+.menu-item button:hover{
+    box-shadow: inset 200px 0 0 #13131A;
+    border: 1px solid transparent;
+
 }
