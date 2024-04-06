@@ -1,0 +1,12 @@
+#product-title h3{
+    text-align: center;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+#product-title h3 span{
+    color: #D3AD7F;
+}
