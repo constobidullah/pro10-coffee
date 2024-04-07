@@ -19,7 +19,7 @@
 .review-item{
     border: 1px solid #4E4E4F;
     border-radius: 2px;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
 }
 
@@ -28,5 +28,20 @@
     height1: 80px;
     border-radius: 50%;
     position: absolute;
-    top: -45%;
+    top: -30%;
+    right: 55%;
+    /* bottom: 100%; */
+    left: 47%;
+}
+
+.review-item .review-person{
+    color: #fff;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.review-person h4{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
