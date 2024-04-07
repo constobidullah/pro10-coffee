@@ -13,7 +13,7 @@
 
 /* Review */
 #review-parent{
-    padding: 50px 80px 0;
+    padding: 30px 80px 0;
     display: flex;
     gap: 20px;
 }
@@ -22,8 +22,15 @@
     border: 1px solid #4E4E4F;
     border-radius: 2px;
     text-align: center;
-    position: relative;
     padding: 30px;
+
+    position: relative;
+
+    height: 180px;
+
+    overflow: hidden;
+
+    transition: .5s;
 }
 
 .review-item img{
@@ -31,7 +38,8 @@
     height1: 80px;
     border-radius: 50%;
     position: absolute;
-    top: -10%;
+    /* top: -10%; */
+    top: 0;
     right: 40%;
     /* bottom: 100%; */
     left: 40%;
@@ -62,4 +70,13 @@
     color: #4f4f50;
     font-family: "Rajdhani", sans-serif;
     font-size: 1.3rem;
+}
+
+.review-item:hover{
+    height: 400px;
+    overflow: visible;
+}
+
+.review-item:hover img{
+    top: -10%;
 }
