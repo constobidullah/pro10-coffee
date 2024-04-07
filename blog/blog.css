@@ -17,3 +17,10 @@
     padding: 50px 80px;
 }
 
+.blog-child {
+    border: 1px solid #4E4E4F;
+}
+
+.blog-child img {
+    width: 100%;
+}
