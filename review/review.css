@@ -20,4 +20,13 @@
     border: 1px solid #4E4E4F;
     border-radius: 2px;
     text-align: center;
+    position: relative;
+}
+
+.review-item img{
+    width: 80px;
+    height1: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45%;
 }
