@@ -14,7 +14,7 @@
 /* product */
 
 #product-parent {
-    padding: 0 100px;
+    padding: 0 80px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
