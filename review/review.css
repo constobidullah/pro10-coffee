@@ -21,6 +21,7 @@
     border-radius: 2px;
     text-align: center;
     position: relative;
+    padding: 30px;
 }
 
 .review-item img{
@@ -28,7 +29,7 @@
     height1: 80px;
     border-radius: 50%;
     position: absolute;
-    top: -30%;
+    top: -17%;
     right: 55%;
     /* bottom: 100%; */
     left: 47%;
@@ -53,4 +54,8 @@
 .review-star{
     color: #D3AD7F;
     margin: 0 0 20px 0;
+}
+
+.review-detail p{
+    color: #39393A;
 }
