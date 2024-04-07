@@ -24,3 +24,13 @@
 .blog-child img {
     width: 100%;
 }
+
+.blog-contain {
+    padding: 20px 10px;
+}
+
+.blog-name-date h6 {
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+}
