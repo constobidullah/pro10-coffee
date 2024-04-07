@@ -48,7 +48,25 @@
 
 .blog-detail p {
     color: #4E4E4F;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
     font-family: "Rajdhani", sans-serif;
     font-size: 1.1rem;
+}
+
+.blog-contain a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #D3AD7F;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    box-shadow: inset 0 0 0 #D3AD7F;
+    transition: .5s;
+}
+
+.blog-contain a:hover {
+    box-shadow: inset 150px 0 0 #13131A;
 }
