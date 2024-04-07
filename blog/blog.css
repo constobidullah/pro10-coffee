@@ -29,14 +29,26 @@
     padding: 20px 10px;
 }
 
+.blog-name-date {
+    margin: 0 0 10px 0;
+}
+
 .blog-name-date h6 {
     color: #fff;
     font-family: "Rajdhani", sans-serif;
     font-size: 1.3rem;
+    margin: 0 0 10px 0;
 }
 
-.blog-name-date p{
+.blog-name-date p {
     color: #A28562;
     font-family: "Rajdhani", sans-serif;
     font-size: 1.2rem;
+}
+
+.blog-detail p {
+    color: #4E4E4F;
+    margin: 0 0 10px 0;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.1rem;
 }
