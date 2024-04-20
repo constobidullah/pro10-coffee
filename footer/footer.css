@@ -1,0 +1,34 @@
+footer {
+    text-align: center;
+}
+
+#footer-icon i{
+    margin: 0 0 20px 0;
+}
+
+#footer-icon i {
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #4E4E4F;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    transition: .9s;
+}
+
+#footer-icon i:hover{
+    background-color: #9D7C4F;
+    /* color: #000; */
+    border: 1px solid transparent;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+footer p span {
+    color: #9D7C4F;
+}
