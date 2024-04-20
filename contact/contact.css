@@ -27,10 +27,11 @@
     margin: 0 0 20px 0;
 }
 
-#contact-item-parent{
+#contact-item-parent {
     display: flex;
     gap: 20px;
     flex-direction: column;
+    margin: 0 0 40px 0;
 }
 
 .contact-item i {
@@ -52,7 +53,19 @@
     border: 0;
 }
 
-.contact-item input::placeholder{
+.contact-item input::placeholder {
     font-size: 1.2rem;
     font-family: "Rajdhani", sans-serif;
+}
+
+#contact-button a {
+    cursor: pointer;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D3AD7F;
+    padding: .5rem 3rem;
+    border-radius: 2px;
 }
