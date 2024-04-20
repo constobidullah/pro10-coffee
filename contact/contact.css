@@ -10,3 +10,11 @@
 #contact-title h3 span {
     color: #D3AD7F;
 }
+
+#contact-parent {
+    padding: 0 80px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-content: center;
+}
