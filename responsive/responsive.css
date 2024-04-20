@@ -1,13 +1,10 @@
 @media screen and (max-width: 620px) and (min-width: 320px) {
-    
+
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         overflow-x: hidden;
     }
 
-    nav{
+    nav {
         display: none;
     }
 
@@ -16,5 +13,52 @@
         height: 100vh;
     }
 
+
+    #header-declare-text {
+        top: 15%;
+        right: 5%;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    #header-declare-text h2 {
+        font-size: 1.5rem;
+    }
+
+    #header-declare-text p {
+        font-size: 1.1rem;
+    }
+
+    #header-declare-text button {
+        font-size: 1.1rem;
+    }
+
+    /* About */
+    #about-title h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #about-parent {
+        padding: 0 10px 25px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #about-text h4{
+        font-size: 1.2rem;
+    }
+
+    #about-text p{
+        font-size: 1rem;
+    }
+
+    #about-item i{
+        font-size: 1.3rem;
+    }
+
+    #about-item p{
+        font-size: 1.1rem;
+    }
 
 }
