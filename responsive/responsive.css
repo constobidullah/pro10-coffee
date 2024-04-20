@@ -45,19 +45,54 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #about-text h4{
+    #about-text h4 {
         font-size: 1.2rem;
     }
 
-    #about-text p{
+    #about-text p {
         font-size: 1rem;
     }
 
-    #about-item i{
+    #about-item i {
         font-size: 1.3rem;
     }
 
-    #about-item p{
+    #about-item p {
+        font-size: 1.1rem;
+    }
+
+
+    /* Menu */
+    #menu-title h3 {
+        font-size: 1.5rem;
+    }
+
+    #menu-parent {
+        padding: 0 10px 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 0 0 25px 0;
+    }
+
+    .menu-item{
+        padding: 25px 0;
+    }
+
+    .menu-item h4{
+        font-size: 1.1rem;
+    }
+
+    .menu-item p{
+        font-size: 1.1rem;
+    }
+    
+    .menu-item p del{
+        font-size: .7rem;
+    }
+
+    .menu-item button{
+        padding: 5px 15px;
         font-size: 1.1rem;
     }
 
