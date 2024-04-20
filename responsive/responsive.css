@@ -96,4 +96,26 @@
         font-size: 1.1rem;
     }
 
+    /* Products */
+    #product-title h3 {
+        font-size: 1.5rem;
+    }
+
+    #product-parent {
+        padding: 0 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .product-item {
+        padding: 15px 0;
+    }
+
+    .product-item .shiping{
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        right: 50%;
+        transition: .5s;
+    }
+    
 }
