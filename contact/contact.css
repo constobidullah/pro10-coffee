@@ -19,9 +19,22 @@
     align-content: center;
 }
 
-#contact-item-container h6{
+#contact-container h6 {
     color: #fff;
     font-size: 2rem;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.contact-item i {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.contact-item {
+    width: 75%;
+    border: 1px solid #4E4E4F;
+    border-radius: 2px;
+    padding: 10px;
 }
