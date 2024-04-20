@@ -1,6 +1,9 @@
 @media screen and (max-width: 620px) and (min-width: 320px) {
 
     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         overflow-x: hidden;
     }
 
@@ -176,7 +179,7 @@
 
     #blog-parent {
         padding: 0 10px 50px;
-       flex-direction: column;
+        flex-direction: column;
         margin: 0 0 20px 0;
     }
 
@@ -198,19 +201,21 @@
     #contact-item-parent {
         margin: 0 0 40px 0;
     }
-    
+
     .contact-item i {
-        font-size: 1.2;
+        font-size: 1.2rem;
         padding: 0 10px 0 0;
     }
-    
+
     .contact-item {
-        width:100%;
+        width: 100%;
     }
-    
-    
+
+
     .contact-item input::placeholder {
         font-size: 1.1rem;
     }
+
+    
 
 }
