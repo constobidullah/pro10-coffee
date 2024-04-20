@@ -75,23 +75,23 @@
         margin: 0 0 25px 0;
     }
 
-    .menu-item{
+    .menu-item {
         padding: 25px 0;
     }
 
-    .menu-item h4{
+    .menu-item h4 {
         font-size: 1.1rem;
     }
 
-    .menu-item p{
+    .menu-item p {
         font-size: 1.1rem;
     }
-    
-    .menu-item p del{
+
+    .menu-item p del {
         font-size: .7rem;
     }
 
-    .menu-item button{
+    .menu-item button {
         padding: 5px 15px;
         font-size: 1.1rem;
     }
@@ -103,19 +103,70 @@
 
     #product-parent {
         padding: 0 10px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .product-item {
         padding: 15px 0;
     }
 
-    .product-item .shiping{
+    .product-item .shiping {
         position: absolute;
         bottom: -100px;
         left: 50%;
         right: 50%;
         transition: .5s;
     }
-    
+
+    /* Review */
+    #review-title h3 {
+        font-size: 1.5rem;
+    }
+
+    #review-parent {
+        gap: 50px;
+        padding: 50px 10px 0;
+        flex-direction: column;
+    }
+
+    .review-item {
+        padding: 30px;
+
+        height: 180px;
+    }
+
+    .review-item img {
+        width: 60px;
+        height: 60px;
+        right: 43%;
+        left: 43%;
+    }
+
+    .review-item .review-person {
+        color: #fff;
+        margin: 50px 0 20px 0;
+    }
+
+    .review-person h4 {
+        font-family: "Rajdhani", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .review-person p {
+        font-family: "Rajdhani", sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .review-star {
+        color: #D3AD7F;
+        margin: 0 0 20px 0;
+    }
+
+    .review-detail p {
+        color: #4f4f50;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 1.3rem;
+    }
+
 }
