@@ -169,4 +169,16 @@
         font-size: 1.3rem;
     }
 
+    /* Blog */
+    #blog-title h3 {
+        font-size: 1.5rem;
+    }
+
+    #blog-parent {
+        padding: 0 10px 50px;
+       flex-direction: column;
+        margin: 0 0 20px 0;
+    }
+
+    /* Contact */
 }
