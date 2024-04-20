@@ -181,4 +181,36 @@
     }
 
     /* Contact */
+    #contact-title h3 {
+        font-size: 1.5rem;
+    }
+
+    #contact-parent {
+        padding: 0 10px 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-container h6 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #contact-item-parent {
+        margin: 0 0 40px 0;
+    }
+    
+    .contact-item i {
+        font-size: 1.2;
+        padding: 0 10px 0 0;
+    }
+    
+    .contact-item {
+        width:100%;
+    }
+    
+    
+    .contact-item input::placeholder {
+        font-size: 1.1rem;
+    }
+
 }
