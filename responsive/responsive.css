@@ -7,9 +7,7 @@
         overflow-x: hidden;
     }
 
-    nav {
-        display: none;
-    }
+    /* Navbar */
 
     /* Header */
     #header-declare-image {

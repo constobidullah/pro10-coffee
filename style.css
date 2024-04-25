@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #13131A;
 }
 
@@ -19,12 +19,23 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 #nav-name a {
     text-decoration: none;
     font-size: 2rem;
     color: #fff;
+}
+
+#check {
+    display: none;
+}
+
+.bars i {
+    color: #fff;
+    font-size: 1.5rem;
+    display: none;
 }
 
 #nav-link {
@@ -77,21 +88,21 @@ nav {
     color: #fff;
 }
 
-#header-declare-text h2{
+#header-declare-text h2 {
     font-size: 3rem;
     margin-bottom: 10px;
     font-family: "Lora", serif;
     font-weight: 500;
 }
 
-#header-declare-text p{
+#header-declare-text p {
     font-size: 1.6rem;
-    font-family: "Rajdhani",sans-serif;
+    font-family: "Rajdhani", sans-serif;
     font-weight: 100;
     margin-bottom: 20px;
 }
 
-#header-declare-text button{
+#header-declare-text button {
     cursor: pointer;
     border: 2px solid transparent;
     border-radius: 3px;
@@ -104,7 +115,7 @@ nav {
     transition: .4s;
 }
 
-#header-declare-text button:hover{
+#header-declare-text button:hover {
     border: 2px solid #D3AD7F;
     background-color: transparent;
 }
