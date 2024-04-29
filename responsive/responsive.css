@@ -1,12 +1,5 @@
 @media screen and (max-width: 620px) and (min-width: 320px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-
     /* Navbar */
 
     nav {
@@ -18,36 +11,36 @@
     }
 
     .bars i {
-        font-size: 1.5rem;
+        cursor: pointer;
         display: block;
     }
 
     #nav-link {
-        display: block;
-
+        padding: 40% 0;
+        text-align: center;
+        flex-direction: column;
         width: 100%;
         height: 100vh;
-        background-color: #4f4f50;
+        background-color: #000;
 
         /* responsive change */
         position: absolute;
-        top: 75px;
-        left: 100px;
+        top: 80px;
+        left: -100%;
+        z-index: 1;
     }
 
-    #nav-link li {
-        display: block;
+    #nav-link li a {
+        line-height: 1em;
     }
 
-    #nav-side-item i {
-        color: #fff;
-        font-size: 1.5rem;
-        margin: 0 0 0 20px;
+    #check:checked~#nav-link {
+        left: 0;
     }
 
     /* Header */
     #header-declare-image {
-        height: 100vh;
+        height: 70vh;
     }
 
 
