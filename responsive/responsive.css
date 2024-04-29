@@ -39,16 +39,16 @@
     }
 
     /* Header */
-    #header-declare-image img{
+    #header-declare-image img {
         height: 60vh;
     }
 
 
     #header-declare-text {
-        top: 15%;
-        right: 5%;
+        top: 25%;
+        right: 2%;
         bottom: 10%;
-        left: 5%;
+        left: 2%;
     }
 
     #header-declare-text h2 {
@@ -243,6 +243,9 @@
         font-size: 1.1rem;
     }
 
+    #contact-button {
+        width: 100%;
+    }
 
 
 }
