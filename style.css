@@ -68,9 +68,7 @@ nav {
     margin-bottom: 50px;
 }
 
-#header-declare-image {
-    background-image: url('./image/coffee-header.jpg');
-    background-repeat: no-repeat;
+#header-declare-image img{
     background-size: cover;
     width: 100%;
     height: 90vh;

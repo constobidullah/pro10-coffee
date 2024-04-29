@@ -39,8 +39,8 @@
     }
 
     /* Header */
-    #header-declare-image {
-        height: 70vh;
+    #header-declare-image img{
+        height: 60vh;
     }
 
 
